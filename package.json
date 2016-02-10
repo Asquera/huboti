@@ -1,9 +1,9 @@
 {
   "name": "huboti",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "author": "BriocheBerlin <brigitte.markmann@asquera.de>",
-  "description": "A friend in times of need",
+  "description": "Our darling hubot",
   "dependencies": {
     "hubot": "^2.18.0",
     "hubot-business-cat": "^1.4.2",
@@ -18,7 +18,8 @@
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.2",
-    "hubot-shipit": "^0.2.0"
+    "hubot-shipit": "^0.2.0",
+    "hubot-energize-me": "git://github.com/Asquera/hubot-energize-me"
   },
   "engines": {
     "node": "0.10.x"
