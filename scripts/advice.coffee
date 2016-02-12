@@ -45,3 +45,6 @@ module.exports = (robot) ->
 
   robot.respond /(.*) advice$/i, (msg) ->
     randomAdvice(msg)
+
+  robot.respond /(.*) assist (.*)/i, (msg) ->
+    randomAdvice(msg)
